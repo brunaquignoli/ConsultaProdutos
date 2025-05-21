@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <link rel="stylesheet" href="estilos/style.css"/>
+        <title> MANTER PRODUTO </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <form ACTION="ControleProduto" method="GET">
+                <div> <h1> Manter Produto </h1> </div>
+                <div>
+                    <label> ID: </label>
+                    <input type="text" name="txtid">
+                </div>
+                <div>
+                    <label> Descrição: </label>
+                    <input type="text" name="txtdescricao">
+                </div>
+                <div>
+                    <label> Preço: </label> 
+                    <input type="text" name="txtpreco">
+                </div>
+
+                <br>
+
+                <input type="submit" name="op" value="CADASTRAR"> 
+                <input type="submit" name="op" value ="DELETAR">
+                <input type="submit" name="op" value="ATUALIZAR"> 
+                <input type="submit" name="op" value="VER UM PRODUTO">
+                <input type="submit" name="op" value="VER TODOS OS PRODUTOS">
+                
+            </form>
+        </div>
+    </body>
+</html>

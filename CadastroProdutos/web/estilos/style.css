@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 de mai. de 2025, 22:03:12
+    Author     : bruna
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(90deg, #1ca3cd, #ff7f38, #c6125b);
+    background-size: 500% 500%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    -webkit-backdrop-filtar: blur(12px);
+    border-radius: 20px;
+    padding: 40px;
+    width: 320px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    text-align: center;
+    color: #fff;
+}
+
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    color: #333;
+}
+
+input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #c6125b;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #ffe4f1;
+}
+
+.consulta {
+    display: flex;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    font-family: Arial, sans-serif;
+}
+
+.consulta h2 {
+    text-align: center;
+    color: #333;
+}
+
+.consulta p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+

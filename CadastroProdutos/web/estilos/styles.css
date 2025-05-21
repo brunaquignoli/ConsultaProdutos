@@ -1,0 +1,44 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 16 de mai. de 2025, 20:44:55
+    Author     : bruna
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #1ca3cd, #ff7f38, #c6125b);
+    background-size: 500% 500%;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 12px;
+    text-align: center;
+    color: black;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.3s ease;
+}
+
+.voltar:hover {
+    background-color: #fcfcfc;
+    transform: scale(1.05);
+}
