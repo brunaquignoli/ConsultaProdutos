@@ -19,7 +19,7 @@ Nesse projeto foi utilizado:
 > Cadastro realizado com sucesso!
 ![cadastrado com sucesso](https://github.com/user-attachments/assets/be145931-eb57-4204-b58c-894737b6a0ab)
 #
-> Mostrando, no banco de dados, o produto cadastrado
+> Mostrando, no banco de dados, o produto cadastrado  
 ![produto cadastrado no mysql](https://github.com/user-attachments/assets/a67040f6-8876-4361-8c8d-9f64d5f53ed2)
 #
 > Fazendo a consulta do produto a partir do seu id
