@@ -1,5 +1,7 @@
 Este projeto é um sistema web desenvolvido com Java, JSP, Servlets e JDBC. Ele permite cadastrar novos produtos com descrição e preço, consultar produtos por ID e exibir os dados do produto (como descrição e preço), e excluir produtos armazenados em um banco de dados MySQL.
 
+https://github.com/user-attachments/assets/d89152ed-df2b-48a6-afaa-11d059a182b8
+
 #
 
 Nesse projeto foi utilizado:
